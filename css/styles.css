@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: #ecf2ff;
+}
+
+.main {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 17.5rem;
+  width: 46.25rem;
+  border-radius: 1.875rem;
+  background-color: white;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 2.375rem;
+  border-radius: 1.875rem;
+}
+
+.card-purple {
+  align-items: center;
+  width: 50%;
+  background-image: linear-gradient(#7755ff, #2f2ce9);
+}
+
+.text-your-result {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #cac9ff;
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.75rem;
+  margin-top: 2.1875rem;
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 50%;
+  background-image: linear-gradient(#4d21c9, transparent);
+}
+
+.number-circle {
+  font-weight: 800;
+  font-size: 4.5rem;
+  color: white;
+}
+
+.text-circle {
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #cac9ff;
+}
+
+.text-great {
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  color: white;
+}
+
+.text-card-purple {
+  margin-bottom: 0;
+  width: 16.25rem;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #cac9ff;
+}
+
+.card-white {
+  width: 50%;
+  background-color: white;
+}
+
+.text-summary {
+  margin-top: 0;
+  margin-bottom: 1.75rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #303b59;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.categorie {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  height: 3.5rem;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 1.125rem;
+  background-color: red;
+}
+
+.reaction {
+  background-color: #fff6f6;
+  color: #ff5555;
+}
+
+.categorie-title {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.rating-points {
+  margin-right: 0.5rem;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #303b59;
+}
+
+.rating-totally {
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #9799a8;
+}
+
+.memory {
+  background-color: #fffbf4;
+  color: #ffb21e;
+}
+
+.verbal {
+  background-color: #f2fcf9;
+  color: #00bb8f;
+}
+
+.visual {
+  background-color: #f3f4fd;
+  color: #1125d6;
+}
+
+.button-continue {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  text-decoration: none;
+  padding: 1.0625rem;
+  border-radius: 3.125rem;
+  color: white;
+  background-color: #303b59;
+}
